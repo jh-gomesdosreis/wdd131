@@ -1,0 +1,115 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+}
+
+body {
+    display: grid;
+    height: 100vh;
+    grid-template: auto auto 1fr auto / auto auto auto auto;
+}
+
+header {
+    background: #174E70;
+    padding: 2rem 0 0 0;
+    grid-column: 1 / 5;
+} 
+
+header h1 {
+    padding-bottom: 2rem;
+    text-align:center;
+    color: white;
+    font-weight: bold;
+}
+
+nav {
+    grid-column:1 / 5;
+    background-color: grey;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align:center;
+    text-decoration:none;
+}
+
+nav a p:hover {
+    border-top: 1px solid white;
+    color:yellow;
+    display:inline-block;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+nav ul li {
+    flex: 1 1 100%;
+}
+
+main {
+    grid-column: 1 / 5;
+    display: grid;
+    grid-template: auto / auto auto;
+}
+
+.left-card {
+    grid-column: 1 / 2;
+    display: grid;
+    grid-template: auto / auto auto auto auto auto;
+    border: 1px solid grey;
+    border-radius:25px;
+    margin:25px
+}
+
+.main-header {
+    grid-column:1 / 6;
+    text-align: center;
+    background-color:bisque;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+section img.my-pic {
+    width: auto;
+    max-height:200px;
+    border: gray;
+    grid-column: 5/6;
+    padding-right: 60px;
+}
+
+h1.country-section-title {
+    font-size:40px;
+    text-align:center;
+    grid-column: 1/6;
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+
+section img.flag {
+    width: auto;
+    max-height:200px;
+    border: gray;
+    grid-column: 1/2;
+    padding-left: 25px;
+}
+
+section p.bio {
+    font-size:25px;
+    margin:25px;
+    grid-column: 1/4;
+}
+
+.right-card {
+    grid-column: 2 / 3;
+}
