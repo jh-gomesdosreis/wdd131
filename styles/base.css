@@ -40,7 +40,7 @@ nav a {
     font-size:20px;
 }
 
-nav a p:hover {
+nav p:hover {
     border-top: 2px solid white;
     color:yellow;
     display:inline-block;
