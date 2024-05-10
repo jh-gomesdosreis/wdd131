@@ -12,4 +12,4 @@ function calculateWindChill(temperature, windSpeed) {
         windChillElement.textContent = windChill;
     }
 }
-calculateWindChill(22, 10);
+calculateWindChill(22, 10); 

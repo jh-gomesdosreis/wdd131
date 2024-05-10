@@ -1,4 +1,14 @@
-/* Common styles */
+:root {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+}
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+
+}
+
 header {
     background-color: green;
     text-align: center;
@@ -30,6 +40,7 @@ header {
     max-width: 100px;
     height: auto;
     display: block;
+    
 }
 
 .left-data {
