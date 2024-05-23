@@ -1,0 +1,34 @@
+:root {
+    p {
+        font-size:1.5rem;
+    }
+}
+
+.page-title {
+    font-size:3rem;
+}
+
+header, footer {
+    background-color: #9E8FB2;
+    padding:1rem;
+    color:white;
+    text-align:center;
+}
+
+main div {
+    padding:0 1rem 1rem 0;
+}
+
+main div h1 {
+    font-size:2.2rem;
+}
+
+main {
+    padding:2rem;
+    display:grid;
+    grid-template-columns: auto auto auto;
+}
+
+.color-schema-section {
+    align-content: center;
+}
