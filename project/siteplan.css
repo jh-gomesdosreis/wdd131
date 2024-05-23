@@ -5,15 +5,14 @@
     p {
         font-size:1.5rem;
     }
-    .oswald, h1 {
-        font-family: "Oswald";
-    }
-    .reddit-sans, p {
-        font-family: "Reddit Sans";
-    }
-
 }
 
+.oswald, h1 {
+    font-family: "Oswald";
+}
+.reddit-sans, p {
+    font-family: "Reddit Sans";
+}
 
 .page-title {
     font-size:3rem;
