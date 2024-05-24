@@ -1,0 +1,75 @@
+body {
+    max-width:800px;
+}
+
+header {
+    background-color: lightblue;
+    padding:.5rem;
+    text-align: center;
+}
+
+legend {
+    font-size:1rem;
+}
+
+.form {
+    display:block;
+    background-color: rgb(196, 212, 218);
+}
+
+.form div {
+    font-size:1rem;
+    margin-top:1rem;
+    padding-bottom:.5rem;
+    color:blue;
+}
+
+.form label {
+    display:block;
+    font-size: 1rem;
+    padding-bottom:.5rem;
+}
+
+.form input[type="checkbox"] {
+    background-color: #eee;
+}
+
+.form select,
+.form input[type="text"],
+.form input[type="date"],
+.form select[name="product name"],
+textarea {
+    background-color: #eee;
+    border: solid 1px #999;
+    border-radius: 6px;
+    padding: .75rem;
+    color: #999;
+    width: 100%;
+    max-width:400px;
+}
+
+.form input[type="submit"] {
+    padding:1rem;
+    margin:1rem;
+    border: solid 1px #999;
+    background-color: lightblue;
+}
+
+.form input:required {
+    border-right: solid 8px red;
+}
+
+.form input:required:valid {
+    border-right: solid 8px green;
+}
+
+.conf-page-main {
+    background-color: rgb(196, 212, 218);
+    min-height: 300px;
+}
+
+.conf-page-main h1,
+.conf-page-main p {
+    text-align: center;
+    padding-top:2rem;
+}

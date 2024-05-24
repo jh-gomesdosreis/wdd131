@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - João Reis">
+    <meta name="author" content="João Reis">
+    <title>WDD 131 - Dynamic Web Fundamentals - João Reis (Form Activity, Week 5)</title>
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/form.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="header">Product Review</h1>
+    </header>
+    <main>
+        <form method="get" action="review.html" class="form">
+            <fieldset>
+                <legend>My Form</legend>
+                <div>Product Name</div>
+                <select name="product-name" required>
+                    <option value="">Select a Product...</option>
+                </select>
+                <div>Overall Rating</div>
+                    <label><input type="radio" name="rating" value="1">&star;</label>
+                    <label><input type="radio" name="rating" value="2">&star; &star;</label>
+                    <label><input type="radio" name="rating" value="3">&star; &star; &star;</label>
+                    <label><input type="radio" name="rating" value="4">&star; &star; &star; &star;</label>
+                    <label><input type="radio" name="rating" value="5">&star; &star; &star; &star; &star;</label>
+                <div>Date of Installation</div>
+                    <label><input type="date" name="date-installation" required></label>
+                <div>Useful Features</div>
+                    <label><input type="checkbox" name="useful-features" value="durability">Durability</label>
+                    <label><input type="checkbox" name="useful-features" value="ease-of-use">Ease of Use</label>
+                    <label><input type="checkbox" name="useful-features" value="performance">Performance</label>
+                    <label><input type="checkbox" name="useful-features" value="design">Design</label>
+                <div>Written Review</div>
+                    <textarea id="" name="written-review"></textarea>
+                <div>User Name</div>
+                    <label><input type="text" name="username"></label>
+            </fieldset>
+            <input type="submit" value="Post Review">
+        </form>
+    </main>
+</body>
+</html>
