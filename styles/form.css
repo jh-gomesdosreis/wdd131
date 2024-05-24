@@ -55,11 +55,13 @@ textarea {
     background-color: lightblue;
 }
 
-.form input:required {
+.form input:required,
+select[name="product-name"]:required {
     border-right: solid 8px red;
 }
 
-.form input:required:valid {
+.form input:required:valid,
+select[name="product-name"]:required:valid {
     border-right: solid 8px green;
 }
 
