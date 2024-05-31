@@ -52,12 +52,13 @@
     h1 {
         font-size: 3.5rem !important;
     }
+
     p {
         font-size:1.5rem !important;
     }
+
     .content-area-1 .container,
-    .content-area-2 .container, 
-     {
+    .content-area-2 .container {
         display:block;
     }
 
